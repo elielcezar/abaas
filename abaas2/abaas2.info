@@ -1,0 +1,19 @@
+
+name = abaas2
+
+description = Tema exclusivo para o site ABAAS - Versao Completa
+package = Core
+version = VERSION
+core = 7.x
+
+regions[topo] = Topo
+regions[content] = Content
+
+base theme = bootstrap
+
+stylesheets[all][] = css/geral.css
+
+scripts[] = js/geral.js
+
+plugins[panels][layouts] = layouts
+
