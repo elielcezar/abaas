@@ -1,15 +1,26 @@
 
 <?php
-global $base_url;
+//global $base_url;
 ?>
- 
 
+
+<div class="top-header">
+  <div class="container">
+    <?php
+        setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
+        date_default_timezone_set('America/Sao_Paulo');
+    ?>
+    <p><?php echo strftime('%A'); ?>, <strong><?php echo strftime("%d de %B de %Y"); ?></strong></p>
+    <?php print render($page['top-header']); ?>
+  </div>
+</div>
 <header>
+
   <nav class="navbar navbar-default">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      
+
       <a class="logo" href="<?php print base_path(); ?>"><img src="<?php print base_path() ?>sites/all/themes/abaas2/img/logo.png" class="img-responsive" /></a>
 
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -33,9 +44,7 @@ global $base_url;
         <?php if($user->uid){ ?>
              <li><a href="<?php print base_path(); ?>user/logout">Sair</a></li>
           <?php } ?>
-      </ul> 
-
-
+      </ul>
     </div><!-- /.navbar-collapse -->
 
     <?php print render($page['topo']); ?>
@@ -45,8 +54,4 @@ global $base_url;
 
 </header>
 
-  <?php //print render($page['topo']); ?>  
-
-
-
-
+  <?php //print render($page['topo']); ?>

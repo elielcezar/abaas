@@ -6,6 +6,7 @@ package = Core
 version = VERSION
 core = 7.x
 
+regions[top-header] = Top Header
 regions[topo] = Topo
 regions[content] = Content
 
@@ -16,4 +17,3 @@ stylesheets[all][] = css/geral.css
 scripts[] = js/geral.js
 
 plugins[panels][layouts] = layouts
-

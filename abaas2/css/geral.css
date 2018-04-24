@@ -281,6 +281,37 @@ h3 {
   color: #4dc6ef;
 }
 
+h3.background {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #132c42;
+  text-transform: uppercase;
+  margin: 25px 0;
+  font-size: 32px;
+}
+
+h3.background:before {
+  border-top: 2px solid #dfdfdf;
+  content: "";
+  margin: 0 auto;
+  /* this centers the line to the full width specified */
+  position: absolute;
+  /* positioning must be absolute here, and relative positioning must be applied to the parent */
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+h3.background strong {
+  /* to hide the lines from behind the text, you have to set the background color the same as the container */
+  background: #fff;
+  padding: 0 15px;
+}
+
 h4 {
   font-family: 'AntennaCond Bold', arial, sans-serif;
   font-size: 15px;
@@ -316,12 +347,27 @@ h4 {
 }
 
 @media (min-width: 768px) {
+  .top-header {
+    float: left;
+    width: 100%;
+    background-color: #0a1723;
+    background: linear-gradient(to right, #0a1723, #1e4869);
+    color: #fff;
+    padding: 20px 0;
+    font-weight: normal;
+  }
   /*--- TOPO --------------------------------------------------------------------------------*/
   header {
-    padding: 10px 0;
+    padding: 40px 0;
+    /*@media(min-width:768px){
+          .navbar-collapse{
+            margin: 10px 0 0 50px !important;
+            float: left;
+          }
+        }*/
   }
   header a.logo img {
-    max-width: 210px;
+    max-width: 220px;
   }
   header .navbar-default {
     background-color: #fff;
@@ -338,17 +384,19 @@ h4 {
     font-size: 17px;
     padding-left: 0;
     padding-right: 0;
+    font-weight: normal;
   }
   header .navbar-default a:hover {
     border-bottom: 3px solid #4dc6ef;
   }
   header .navbar-collapse {
-    padding-left: 0;
+    padding: 0;
+    margin-top: 0 !important;
+    float: right !important;
   }
   header .region-topo {
+    display: none;
     float: right;
-    margin-top: 20px;
-    width: 200px;
   }
   header .region-topo #edit-s-wrapper {
     float: right;
@@ -365,20 +413,9 @@ h4 {
   header a {
     text-transform: uppercase;
   }
-}
-
-@media (min-width: 768px) and (min-width: 768px) {
-  header .navbar-collapse {
-    margin: 10px 0 0 50px !important;
-    float: left;
-  }
-}
-
-@media (min-width: 768px) {
   /*--- HOME --------------------------------------------------------------------------------*/
   .front {
     background: #fff;
-    /* modal */
     /* modal - banner pop up */
   }
   .front .container {
@@ -390,12 +427,20 @@ h4 {
     width: 100%;
   }
   .front .banner-home #banners {
-    background: transparent url(http://abaas.com.br/sites/all/themes/abaas2/img/img00.jpg) top center no-repeat;
+    height: 370px;
+    background: transparent url(../img/bg-home.jpg) top center no-repeat;
     background-size: cover;
     position: relative;
     color: #fff;
     text-align: left;
-    padding: 50px 0;
+    padding: 0;
+  }
+  .front .banner-home #banners .chamada {
+    background: transparent url(../img/bg-titulo-banner-home.png) top left no-repeat;
+    position: absolute;
+    height: 100%;
+    padding: 95px 152px;
+    width: 700px;
   }
   .front .banner-home #banners h3 {
     font-size: 45px;
@@ -413,95 +458,83 @@ h4 {
     right: 0;
     display: block;
   }
-  .front .associados {
-    float: left;
+  .front .noticias-setor {
     width: 100%;
-    margin: 0 0 20px 0;
-    text-align: center;
-  }
-  .front .associados h5 {
-    font-size: 26px;
-    margin-bottom: 12px;
-    font-family: 'AntennaCond Bold', arial, sans-serif;
-    color: #4dc6ef;
-  }
-  .front .revista {
-    background: #6183AB;
-    padding: 35px 30px;
-    color: #fff;
-  }
-  .front .revista img {
     float: left;
-    max-width: 45%;
-    margin: 0 5% 15px 0;
+    padding-bottom: 30px;
   }
-  .front .revista h5 {
+  .front .noticias-setor .destaque .titulo {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #dfdfdf;
+    margin-bottom: 35px;
+  }
+  .front .noticias-setor .destaque .titulo a {
     font-size: 21px;
+    color: #132e43;
   }
-  .front .revista p {
-    margin-bottom: 20px;
+  .front .noticias-setor .destaque .chamada {
+    margin-bottom: 30px;
+    color: #7c7c7c;
   }
-  .front .revista a {
-    background: #2f394a;
+  .front .noticias-setor .destaque .data {
+    color: #132e43;
+    margin-bottom: 30px;
   }
-  .front .video {
+  .front .noticias-setor .destaque .leia a {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 18px 35px;
+    border: 2px solid #dfdfdf;
+    background: linear-gradient(to right, #0a1723, #1e4869);
+  }
+  .front .noticias-setor .mais .item {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+    color: #7c7c7c;
+  }
+  .front .noticias-setor .mais .item img {
+    float: left;
+    max-width: 30%;
+    margin-right: 5%;
+  }
+  .front .noticias-setor .mais .item .titulo {
+    margin-top: 18px;
+  }
+  .front .noticias-setor .mais .item .titulo a {
+    color: #132c42;
+    font-weight: bold;
+  }
+  .front .conheca-abaas {
     width: 100%;
     float: left;
-    opacity: .8;
-    transition: .3s all;
+    background: #ededed;
+    padding-bottom: 30px;
   }
-  .front .video a {
-    padding: 0;
-    background: transparent;
+  .front .conheca-abaas h3 strong {
+    background: #ededed;
   }
-  .front .video:hover {
-    opacity: 1;
-  }
-  .front #video .modal-content {
-    padding: 0;
-    box-shadow: none;
-    background: transparent;
-    border: none;
-  }
-  .front #video .modal-body {
+  .front .conheca-abaas ul {
+    list-style-type: none;
+    margin: 0 0 0 100px;
     padding: 0;
   }
-  .front #video .modal-body .close {
-    color: #fff;
-    text-shadow: 0 1px 0 #fff;
-    filter: alpha(opacity=100);
-    opacity: 1;
-    border-radius: 50px;
-    width: 25px;
-    height: 25px;
-    background: #000;
-    position: absolute;
-    right: 5px;
-    top: 5px;
+  .front .conheca-abaas ul li {
+    background-position: left center;
+    background-repeat: no-repeat;
+    margin: 35px 0;
+    padding: 25px 0 25px 105px;
   }
-  .front #video .modal-body .close span {
-    display: block;
-    margin: -5px 0 0 0;
+  .front .conheca-abaas ul li:nth-child(1) {
+    background-image: url(../img/icon-representantes.png);
   }
-  .front .newsletter {
-    width: 100%;
-    padding: 48px;
-    background: #f2f2f2;
-    text-align: center;
+  .front .conheca-abaas ul li:nth-child(2) {
+    background-image: url(../img/icon-portavoz.png);
   }
-  .front .newsletter h5 {
-    font-family: 'AntennaCond Bold', arial, sans-serif;
-  }
-  .front .newsletter p {
-    font-size: 18px;
-    color: #808080;
-    font-family: 'AntennaCond Regular';
-  }
-  .front .newsletter a {
-    background: #2f394a;
-  }
-  .front #form-newsletter .webform-confirmation {
-    padding-bottom: 25px;
+  .front .conheca-abaas ul li:nth-child(3) {
+    background-image: url(../img/icon-atividades.png);
+    padding: 7px 0 7px 105px;
   }
   .front .parceiros {
     float: left;
