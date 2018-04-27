@@ -6,11 +6,16 @@
 
 <div class="top-header">
   <div class="container">
-    <?php
-        setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
-        date_default_timezone_set('America/Sao_Paulo');
-    ?>
-    <p><?php echo strftime('%A'); ?>, <strong><?php echo strftime("%d de %B de %Y"); ?></strong></p>
+    <div class="data">
+        <?php
+            /*setlocale(LC_TIME, 'pt_BR', 'pt_BR.utf-8', 'pt_BR.utf-8', 'portuguese');
+            date_default_timezone_set('America/Sao_Paulo');*/
+        ?>
+        <p>
+          <?php print format_date(time(), 'custom', t('l, j \d\e F \d\e Y', array(), array('context' => 'php date format'))); ?>
+        </p>
+
+    </div>
     <?php print render($page['top-header']); ?>
   </div>
 </div>
@@ -32,7 +37,7 @@
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <!--div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="<?php print base_path(); ?>">Home</a></li>
         <li><a href="<?php print base_path(); ?>quem-somos">Quem Somos</a></li>
@@ -45,7 +50,7 @@
              <li><a href="<?php print base_path(); ?>user/logout">Sair</a></li>
           <?php } ?>
       </ul>
-    </div><!-- /.navbar-collapse -->
+    </div--><!-- /.navbar-collapse -->
 
     <?php print render($page['topo']); ?>
 

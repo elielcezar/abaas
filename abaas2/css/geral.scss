@@ -8,7 +8,10 @@ $cinza3: #4D555B;
 
 html, body{height: 100%;}
 
-body{background: #f2f2f2;}
+body{
+  background: #f2f2f2;
+  font-family: 'Gotham Book', arial, sans-serif;
+}
 
 header{
   float: left;
@@ -37,98 +40,76 @@ a{ color: $azul-claro;}
 /*--- FONTES -------------------------*/
 
 @font-face {
-    font-family:'AntennaCond Black';
-    src: url('../fonts/AntennaCond-Black.eot');
-    src: url('../fonts/AntennaCond-Black.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/AntennaCond-Black.woff2') format('woff2'),
-    url('../fonts/AntennaCond-Black.woff') format('woff'),
-    url('../fonts/AntennaCond-Black.svg#AntennaCond-Black') format('svg');
-    font-weight: 900;
+    font-family: 'Gotham Medium';
+    src: url('../fonts/Gotham-Medium.eot');
+    src: url('../fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Medium.woff2') format('woff2'),
+        url('../fonts/Gotham-Medium.woff') format('woff'),
+        url('../fonts/Gotham-Medium.ttf') format('truetype'),
+        url('../fonts/Gotham-Medium.svg#Gotham-Medium') format('svg');
+    font-weight: 500;
     font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0020-FB02;
-}
-
-
-@font-face {
-    font-family:'AntennaCond BlackItalic';
-    src: url('../fonts/AntennaCond-BlackItalic.eot');
-    src: url('../fonts/AntennaCond-BlackItalic.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/AntennaCond-BlackItalic.woff2') format('woff2'),
-    url('../fonts/AntennaCond-BlackItalic.woff') format('woff'),
-    url('../fonts/AntennaCond-BlackItalic.svg#AntennaCond-BlackItalic') format('svg');
-    font-weight: 900;
-    font-style: italic;
-    font-stretch: normal;
-    unicode-range: U+0020-FB02;
 }
 
 @font-face {
-    font-family:'AntennaCond Bold';
-    src: url('../fonts/AntennaCond-Bold.eot');
-    src: url('../fonts/AntennaCond-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/AntennaCond-Bold.woff2') format('woff2'),
-    url('../fonts/AntennaCond-Bold.woff') format('woff'),
-    url('../fonts/AntennaCond-Bold.svg#AntennaCond-Bold') format('svg');
-    font-weight: 700;
-    font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0020-FB02;
-}
-
-@font-face {
-    font-family:'AntennaCond BoldItalic';
-    src: url('../fonts/AntennaCond-BoldItalic.eot');
-    src: url('../fonts/AntennaCond-BoldItalic.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/AntennaCond-BoldItalic.woff2') format('woff2'),
-    url('../fonts/AntennaCond-BoldItalic.woff') format('woff'),
-    url('../fonts/AntennaCond-BoldItalic.svg#AntennaCond-BoldItalic') format('svg');
-    font-weight: 700;
-    font-style: italic;
-    font-stretch: normal;
-    unicode-range: U+0020-FB02;
-}
-
-
-@font-face {
-    font-family:'AntennaCond Regular';
-    src: url('../fonts/AntennaCond-Regular.eot');
-    src: url('../fonts/AntennaCond-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/AntennaCond-Regular.woff2') format('woff2'),
-    url('../fonts/AntennaCond-Regular.woff') format('woff'),
-    url('../fonts/AntennaCond-Regular.svg#AntennaCond-Regular') format('svg');
-    font-weight: 400;
-    font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0020-FB02;
-}
-
-@font-face {
-    font-family:'AntennaCond RegularItalic';
-    src: url('../fonts/AntennaCond-RegularItalic.eot');
-    src: url('../fonts/AntennaCond-RegularItalic.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/AntennaCond-RegularItalic.woff2') format('woff2'),
-    url('../fonts/AntennaCond-RegularItalic.woff') format('woff'),
-    url('../fonts/AntennaCond-RegularItalic.svg#AntennaCond-RegularItalic') format('svg');
-    font-weight: 400;
-    font-style: italic;
-    font-stretch: normal;
-    unicode-range: U+0020-FB02;
-}
-
-@font-face {
-    font-family:'AntennaCond Light';
-    src: url('../fonts/AntennaCond-Light.eot');
-    src: url('../fonts/AntennaCond-Light.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/AntennaCond-Light.woff2') format('woff2'),
-    url('../fonts/AntennaCond-Light.woff') format('woff'),
-    url('../fonts/tennaCond-Light.svg#AntennaCond-Light') format('svg');
+    font-family: 'Gotham Light';
+    src: url('../fonts/Gotham-Light.eot');
+    src: url('../fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Light.woff2') format('woff2'),
+        url('../fonts/Gotham-Light.woff') format('woff'),
+        url('../fonts/Gotham-Light.ttf') format('truetype'),
+        url('../fonts/Gotham-Light.svg#Gotham-Light') format('svg');
     font-weight: 300;
     font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0020-FB02;
 }
 
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url('../fonts/Gotham-Bold.eot');
+    src: url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Bold.woff2') format('woff2'),
+        url('../fonts/Gotham-Bold.woff') format('woff'),
+        url('../fonts/Gotham-Bold.ttf') format('truetype'),
+        url('../fonts/Gotham-Bold.svg#Gotham-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Thin';
+    src: url('../fonts/Gotham-Thin.eot');
+    src: url('../fonts/Gotham-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Thin.woff2') format('woff2'),
+        url('../fonts/Gotham-Thin.woff') format('woff'),
+        url('../fonts/Gotham-Thin.ttf') format('truetype'),
+        url('../fonts/Gotham-Thin.svg#Gotham-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Ultra';
+    src: url('../fonts/Gotham-Ultra.eot');
+    src: url('../fonts/Gotham-Ultra.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Ultra.woff2') format('woff2'),
+        url('../fonts/Gotham-Ultra.woff') format('woff'),
+        url('../fonts/Gotham-Ultra.ttf') format('truetype'),
+        url('../fonts/Gotham-Ultra.svg#Gotham-Ultra') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('../fonts/Gotham-Book.eot');
+    src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Gotham-Book.woff2') format('woff2'),
+        url('../fonts/Gotham-Book.woff') format('woff'),
+        url('../fonts/Gotham-Book.ttf') format('truetype'),
+        url('../fonts/Gotham-Book.svg#Gotham-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* FORMULARIOS */
 .modal{
@@ -271,14 +252,14 @@ form input[type="submit"]:hover{
 }
 
 h1{
-  font-family:'AntennaCond Bold', arial, sans-serif;
+  font-family:'Gotham Bold', arial, sans-serif;
   text-transform: uppercase;
   color: $azul-claro;
   margin-bottom: 20px;
 }
 
 h3{
-  font-family:'AntennaCond Bold', arial, sans-serif;
+  font-family:'Gotham Bold', arial, sans-serif;
   font-size: 24px;
   color: $azul-claro;
 }
@@ -291,13 +272,18 @@ h3.background {
     text-transform: uppercase;
     margin: 25px 0;
     font-size: 32px;
+    letter-spacing: -1px;
+    font-family: 'Gotham Bold', arial, sans-serif;
 
     &:before {
         border-top: 2px solid #dfdfdf;
         content:"";
         margin: 0 auto; /* this centers the line to the full width specified */
         position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
-        top: 50%; left: 0; right: 0; bottom: 0;
+        top: 50%;
+        left: 0;
+        right: 0;
+        bottom: 0;
         width: 100%;
         z-index: -1;
     }
@@ -305,12 +291,12 @@ h3.background {
     strong{
         /* to hide the lines from behind the text, you have to set the background color the same as the container */
         background: #fff;
-        padding: 0 15px;
+        padding: 0 35px;
     }
 }
 
 h4{
-  font-family:'AntennaCond Bold', arial, sans-serif;
+  font-family:'Gotham Bold', arial, sans-serif;
   font-size: 15px;
   font-weight: bold;
 }
@@ -340,35 +326,117 @@ h4{
   z-index: 2;
 }
 
+
+.top-header{
+  float: left;
+  width: 100%;
+  background-color: #0a1723;
+  background: linear-gradient(to right, #0a1723 , #1e4869);
+  color: #fff;
+  padding: 5px 0;
+  font-weight: normal;
+
+  .data{
+    float: left;
+    padding: 12px 0;
+    font-family: 'Gotham Thin';
+    strong{font-family: 'Gotham Bold';}
+  }
+
+  .region-top-header{
+    float: right;
+    height: 40px;
+    margin-top: 3px;
+
+    .views-exposed-widget{
+      padding: 0;
+      margin-bottom: 0;
+
+      input.form-text{
+        border: none !important;
+        background: transparent;
+        font-weight: 300;
+        color: #fff;
+        border-radius: 0;
+        transition: all .2s;
+        width: 150px;
+
+        &:focus{box-shadow: none;}
+      }
+      ::-webkit-input-placeholder{color: #fff; text-transform: uppercase;}
+      ::-moz-placeholder{color: #fff; text-transform: uppercase;}
+      :-ms-input-placeholder{color: #fff; text-transform: uppercase;}
+      :-moz-placeholder{color: #fff; text-transform: uppercase;}
+
+      button{
+        width: 50px;
+        height: 40px;
+        margin-top: 0;
+        text-indent: -5000em;
+        padding: 0;
+        background-color: transparent;
+        background-image: url(../img/icon-busca1.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        transition: 1s ease-in-out;
+        border: none;
+      }
+    }
+
+    .views-exposed-widget.active{
+      input.form-text{
+        width: 350px;
+        border-bottom: 1px solid #ffa000 !important;
+      }
+      button{
+        background-image: url(../img/icon-busca2.png);
+      }
+    }
+
+  }
+}
+
+
 @media(min-width:768px){
 
-  .top-header{
-    float: left;
-    width: 100%;
-    background-color: #0a1723;
-    background: linear-gradient(to right, #0a1723 , #1e4869);
-    color: #fff;
-    padding: 20px 0;
-    font-weight: normal;
-  }
+
 
       /*--- TOPO --------------------------------------------------------------------------------*/
       header{
-        padding: 40px 0;
+        padding: 0;
+        background: #fff;
+
+        .navbar-default {
+            background-color: #fff;
+            border: none;
+            display: block;
+            margin-bottom: 0;
+            padding: 40px 0;
+        }
 
         a.logo{
+          display: block;
           img{max-width: 220px;}
         }
-        .navbar-default {
+        .menu.nav {
           background-color: #fff;
           border: none;
           margin-bottom: 0;
+          float: right;
           //margin-top: 20px;
 
-          li{margin: 20px 30px 0 0;}
+          li{
+            margin-right: 30px;
+            padding-top: 20px;
+            float: left;
+
+            &.active{
+              background: transparent url(../img/icon-active.png) top center no-repeat;
+            }
+          }
 
           a{
-            font-family:'AntennaCond Bold', arial, sans-serif;
+            font-family:'Gotham Medium', arial, sans-serif;
             color: $azul-escuro !important;
             text-transform: uppercase;
             font-size: 17px;
@@ -377,26 +445,27 @@ h4{
             font-weight: normal;
 
             &:hover{
+              background-color: #fff;
               border-bottom: 3px solid $azul-claro;
             }
           }
         }
 
-        .navbar-collapse{
+      /*  .menu.nav{
           padding: 0;
           margin-top: 0 !important;
           float: right !important;
-        }
+        }*/
 
         .region-topo{
-          display: none;
+          //display: none;
 
           float: right;
 
            #edit-s-wrapper{
               float: right;
               margin-top: 8px;
-              font-family:'AntennaCond Regular';
+              font-family:'Gotham Book', sans-serif;
 
               #edit-s{
                 border: 2px solid #dbdbdb;
@@ -429,6 +498,15 @@ h4{
           position: relative;
         }
 
+        .associados{
+          float: left;
+          width: 100%;
+          text-align: center;
+          background: #e3e3e3;
+          border-bottom: 10px solid #ffb300;
+          img.img-responsive{margin: auto;}
+        }
+
         .banner-home{
           float: left;
           width: 100%;
@@ -454,12 +532,13 @@ h4{
               h3{
                 font-size: 45px;
                 color: #fff;
-                font-family:'AntennaCond BoldItalic';
+                text-transform: uppercase;
+                font-family:'Gotham Bold';
               }
               h4{
-                font-size: 30px;
-                font-family:'AntennaCond Light', arial, sans-serif;
-                font-style: italic;
+                font-size: 20px;
+                font-family:'Gotham Light', arial, sans-serif;
+                font-weight: 300;
               }
 
 
@@ -481,19 +560,19 @@ h4{
             .titulo{
               padding-bottom: 10px;
               border-bottom: 2px solid #dfdfdf;
-              margin-bottom: 35px;
+              margin-bottom: 20px;
               a{
                 font-size: 21px;
                 color: #132e43;
               }
             }
             .chamada{
-              margin-bottom: 30px;
+              margin-bottom: 20px;
               color: #7c7c7c;
             }
             .data{
               color: #132e43;
-              margin-bottom: 30px;
+              margin-bottom: 20px;
             }
             .leia{
               a{
@@ -539,6 +618,9 @@ h4{
 
           h3{
             strong{background: #ededed;}
+            &:before{
+              border-top: 2px solid #ff8600;
+            }
           }
 
           ul{
@@ -549,7 +631,7 @@ h4{
             li{
               background-position: left center;
               background-repeat: no-repeat;
-              margin: 35px 0;
+              margin: 25px 0;
               padding: 25px 0 25px 105px;
 
               &:nth-child(1){background-image: url(../img/icon-representantes.png);}
@@ -569,14 +651,47 @@ h4{
           margin: 12px 0 0 0;
           text-align: center;
 
+          h3{
+            color: #747474;
+          }
+
           h5{
             font-size: 26px;
             margin-bottom: 12px;
-            font-family:'AntennaCond Bold', arial, sans-serif;
+            font-family:'Gotham Bold', arial, sans-serif;
             color: $azul-claro;
           }
 
           .col-sm-1{width: 10%;}
+
+          #slick-views-fornecedores-associados-home-1{
+            position: relative;
+            text-align: center;
+
+            .slick__slider{
+              max-width: 94%;
+              margin: auto;
+            }
+            .slick-arrow{
+              display: inline-block;
+              position: absolute;
+              top: 24px;
+              text-indent: -5000em;
+              width: 25px;
+              height: 40px;
+              border-radius: 0;
+              padding: 0;
+              background: transparent;
+            }
+            .slick-arrow.slick-prev{
+              left: 0;
+              background: transparent url(../img/arrow-left.png) center center no-repeat;
+            }
+            .slick-arrow.slick-next{
+              right: 0;
+              background: transparent url(../img/arrow-right.png) center center no-repeat;
+            }
+          }
         }
 
         /* modal - banner pop up */
@@ -609,7 +724,7 @@ h4{
           width: 100%;
 
           .chamada{
-            font-family:'AntennaCond Light', arial, sans-serif;
+            font-family:'Gotham Light', arial, sans-serif;
             color: $cinza3;
             font-size: 19px;
           }
@@ -630,7 +745,7 @@ h4{
               border: 4px solid $azul-claro;
             }
             .col-sm-4{
-              min-height: 115px;
+              min-height: 120px;
             }
             .diretor{
               margin-bottom: 50px;
@@ -657,12 +772,12 @@ h4{
             }
 
             h5{
-              font-family:'AntennaCond Bold', arial, sans-serif;
+              font-family:'Gotham Bold', arial, sans-serif;
             }
             p{
               font-size: 18px;
               color: $cinza2;
-              font-family:'AntennaCond Regular';
+              font-family:'Gotham Book', sans-serif;
             }
           }
 
@@ -699,7 +814,7 @@ h4{
           margin-top: -410px;
 
           .chamada{
-            font-family:'AntennaCond Light', arial, sans-serif;
+            font-family:'Gotham Light', arial, sans-serif;
             color: $cinza3;
             font-size: 19px;
           }
@@ -800,7 +915,7 @@ h4{
             margin: 0 15px 0 0;
             //font-weight: 600;
             letter-spacing: 1px;
-            font-family:'AntennaCond', Arial, sans-serif;
+            font-family:'Gotham Book', Arial, sans-serif;
           }
           span{
             display: inline-block;
@@ -808,7 +923,7 @@ h4{
             color: #ccc;
             font-size: 16px;
             line-height: 55px;
-            font-family:'AntennaCond RegularItalic';
+            font-family:'Gotham Book', Arial, sans-serif;
           }
         }
 
@@ -818,7 +933,7 @@ h4{
           border-bottom: 1px solid #ccc;
           padding-bottom: 25px;
           margin-bottom: 25px;
-          font-family:'AntennaCond Light', arial, sans-serif;
+          font-family:'Gotham Light', arial, sans-serif;
           color: $cinza3;
           font-size: 17px;
         }
@@ -850,7 +965,7 @@ h4{
             margin: 0 0 40px 0;
             letter-spacing: 1px;
             width: 100%;
-            font-family: 'AntennaCond', Arial, sans-serif;
+            font-family: 'Gotham Book', Arial, sans-serif;
           }
 
           .view-revista-todas{
@@ -892,7 +1007,7 @@ h4{
 
             h5,
             p{
-              font-family:'AntennaCond Light', arial, sans-serif;
+              font-family:'Gotham Light', arial, sans-serif;
               font-size: 17px;
             }
         }
@@ -920,14 +1035,14 @@ h4{
           background: #f5f5f5;
           margin-top: 75px;
           text-align: center;
-          font-family:'AntennaCond Light', arial, sans-serif;
+          font-family:'Gotham Light', arial, sans-serif;
 
           img{
             margin: -60px 0 15px 0;
           }
           h2{
             font-size: 25px;
-            font-family: 'AntennaCond Bold';
+            font-family: 'Gotham Bold';
           }
           h4{margin-top: 20px;}
           p{line-height: 13px;}
@@ -968,7 +1083,7 @@ h4{
         }
 
         .chamada{
-            font-family:'AntennaCond Light', arial, sans-serif;
+            font-family:'Gotham Light', arial, sans-serif;
             color: $cinza3;
             font-size: 19px;
             margin-bottom: 80px;
@@ -981,7 +1096,7 @@ h4{
             font-size: 18px;
             margin: 10px 0;
 
-            a{font-family:'AntennaCond Bold', arial, sans-serif;}
+            a{font-family:'Gotham Bold', arial, sans-serif;}
           }
           .views-field-body{
             color: $cinza3;
@@ -1036,7 +1151,7 @@ h4{
           }
 
           .chamada{
-            font-family:'AntennaCond Light', arial, sans-serif;
+            font-family:'Gotham Light', arial, sans-serif;
             color: $cinza3;
             font-size: 19px;
             margin-bottom: 80px;
@@ -1051,7 +1166,7 @@ h4{
               margin: 0 0 10px 0;
               min-height: 55px;
 
-              a{font-family:'AntennaCond Bold', arial, sans-serif;}
+              a{font-family:'Gotham Bold', arial, sans-serif;}
             }
             .views-field-body{
               color: $cinza3;
@@ -1155,7 +1270,7 @@ h4{
             margin-top: 160px;
             //font-weight: 600;
             letter-spacing: 1px;
-            font-family:'AntennaCond Black';
+            font-family:'Gotham Bold', Arial, sans-serif;
           }
 
           .views-field-body{
@@ -1164,8 +1279,8 @@ h4{
             margin: 30px 0 50px 0;
             color: #666;
             font-size: 17px;
-            //font-family:'AntennaCond Regular';
-            font-family:'AntennaCond Light', arial, sans-serif;
+            //font-family:'Gotham Book', sans-serif;
+            font-family:'Gotham Light', arial, sans-serif;
           }
 
           .item{
@@ -1235,7 +1350,7 @@ h4{
           h1{
             margin: 50px 0;
             text-align: center;
-            font-family:'AntennaCond Bold', arial, sans-serif;
+            font-family:'Gotham Bold', arial, sans-serif;
             text-transform: uppercase;
             color: $azul-claro;
           }
@@ -1246,7 +1361,7 @@ h4{
 
               .views-field-title{
                 font-size: 21px;
-                font-family: 'AntennaCond Regular', arial;
+                font-family: 'Gotham Book', arial;
               }
                span{display: inline;}
             }
@@ -1308,10 +1423,10 @@ h4{
         width: 100%;
         padding: 60px 0;
         color: #71828F;
-         font-family:'AntennaCond Regular';
+         font-family:'Gotham Book', sans-serif;
 
          .container{
-          max-width: 1015px;
+        //max-width: 1015px;
          }
 
          img.logo-abaas{
@@ -1319,19 +1434,24 @@ h4{
           margin-bottom: 20px;
         }
 
-         h5{
-          font-size: 13px;
+        h5{
+          font-size: 21px;
+          font-family: 'Gotham Bold', arial, sans-serif;
+          color: #ffae00;
           text-transform: uppercase;
-          color: #fff;
-          margin: 0 0 20px 0;
-         }
+        }
 
         .sobre{
+          width: 30%;
           font-size: 11px;
           font-weight: lighter;
           float: left;
           letter-spacing: 1px;
-          max-width: 360px;
+          color: #fff;
+
+          p{
+            line-height: 17px;
+          }
         }
 
         a{
@@ -1342,21 +1462,28 @@ h4{
 
         .mapa{
             float: left;
-            padding: 0 60px;
-            margin: 0 60px;
-            border-left: 1px solid #231F20;
-            border-right: 1px solid #231F20;
+            width: 30%;
+            padding: 0 3%;
+            margin: 0 6%;
 
            ul{
+             width: 50%;
               list-style-type: none;
               padding: 0;
-              margin: 0 30px 0 0;
+              margin: 0;
               float: left;
 
               li{
                 margin-bottom: 7px;
                 padding-bottom: 7px;
-                border-bottom: 1px solid #231F20;
+
+                a{
+                  color: #fff;
+                  &:hover{
+                    color: #43b647;
+                    text-decoration: none;
+                  }
+                }
               }
               li:last-child{margin-bottom: 0;}
             }
@@ -1366,18 +1493,20 @@ h4{
         }
 
         .endereco{
-          float: left;
+          width: 20%;
+          float: right;
+          color: #fff;
 
           p{margin-bottom: 7px;}
 
           a.email{
             display: inline-block;
-            padding: 5px 15px;
-            border: 1px solid #fff;
-            border-radius: 3px;
-            color: #fff;
-            font-size: 12px;
+            padding: 9px 25px;
+            color: $azul-rodape;
             letter-spacing: 1px;
+            text-transform: uppercase;
+            font-weight: 600;
+            background: linear-gradient(to right, #ff8300 , #ffb900);
           }
         }
 
@@ -1509,12 +1638,12 @@ h4{
               text-align: center;
 
               h5{
-                font-family:'AntennaCond Bold', arial, sans-serif;
+                font-family:'Gotham Bold', arial, sans-serif;
               }
               p{
                 font-size: 21px;
                 color: $cinza2;
-                font-family:'AntennaCond Regular';
+                font-family:'Gotham Book', sans-serif;
               }
             }
 
@@ -1543,20 +1672,20 @@ h4{
               width: 100%;
 
             h1{
-              font-family:'AntennaCond Bold', arial, sans-serif;
+              font-family:'Gotham Bold', arial, sans-serif;
               text-transform: uppercase;
               color: $azul-claro;
               margin-bottom: 20px;
             }
 
             h3{
-              font-family:'AntennaCond Bold', arial, sans-serif;
+              font-family:'Gotham Bold', arial, sans-serif;
               font-size: 24px;
               color: $azul-claro;
             }
 
             h4{
-              font-family:'AntennaCond Bold', arial, sans-serif;
+              font-family:'Gotham Bold', arial, sans-serif;
               font-size: 15px;
               font-weight: bold;
             }
@@ -1564,7 +1693,7 @@ h4{
             .col-sm-6{margin-bottom: 40px;}
 
             .chamada{
-              font-family:'AntennaCond Light', arial, sans-serif;
+              font-family:'Gotham Light', arial, sans-serif;
               color: $cinza3;
               font-size: 16px;
             }
@@ -1592,12 +1721,12 @@ h4{
                 margin-top: 40px;
 
                 h5{
-                  font-family:'AntennaCond Bold', arial, sans-serif;
+                  font-family:'Gotham Bold', arial, sans-serif;
                 }
                 p{
                   font-size: 21px;
                   color: $cinza2;
-                  font-family:'AntennaCond Regular';
+                  font-family:'Gotham Book', sans-serif;
                 }
               }
 
@@ -1632,7 +1761,7 @@ h4{
           //margin-top: -410px;
 
           .chamada{
-            font-family:'AntennaCond Light', arial, sans-serif;
+            font-family:'Gotham Light', arial, sans-serif;
             color: $cinza3;
             font-size: 19px;
           }
@@ -1717,7 +1846,7 @@ h4{
             letter-spacing: 1px;
             margin-top: 15px;
             width: 100%;
-            font-family:'AntennaCond Black';
+            font-family:'Gotham Bold', Arial, sans-serif;
           }
 
           .views-field-body{
@@ -1726,8 +1855,8 @@ h4{
             margin: 10px 0 50px 0;
             color: #666;
             font-size: 17px;
-            //font-family:'AntennaCond Regular';
-            font-family:'AntennaCond Light', arial, sans-serif;
+            //font-family:'Gotham Book', sans-serif;
+            font-family:'Gotham Light', arial, sans-serif;
           }
 
           .item{
@@ -1811,7 +1940,7 @@ h4{
             margin: 0 15px 0 0;
             //font-weight: 600;
             letter-spacing: 1px;
-            font-family:'AntennaCond';
+            font-family:'Gotham Book';
           }
           span{
             display: inline-block;
@@ -1819,7 +1948,7 @@ h4{
             color: #ccc;
             font-size: 16px;
             line-height: 55px;
-            font-family:'AntennaCond RegularItalic';
+            font-family:'Gotham Book';
           }
         }
 
@@ -2322,7 +2451,7 @@ h4{
   h2{
     text-align: center;
     font-size: 42px;
-    font-family:'AntennaCond Light', arial, sans-serif;
+    font-family:'Gotham Light', arial, sans-serif;
 
     &::after{
       content: '';
@@ -2338,7 +2467,7 @@ h4{
   h3{
     color: #4d555a;
     font-size: 32px;
-    font-family:'AntennaCond Light', arial, sans-serif;
+    font-family:'Gotham Light', arial, sans-serif;
 
     &::after{
       content: '';
@@ -2579,7 +2708,7 @@ h4{
       p{text-align: left;}
 
       .chamada{
-          font-family:'AntennaCond Light', arial, sans-serif;
+          font-family:'Gotham Light', arial, sans-serif;
           color: $cinza3;
           font-size: 19px;
       }

@@ -2,6 +2,11 @@
 
 <?php include "header.tpl.php"; ?>
 
+<div class="associados">
+  <div class="container">
+    <a href="<?php print base_path() ?>/associados"><img src="<?php print base_path() ?>sites/all/themes/abaas2/img/associados.jpg" class="img-responsive" /></a>
+  </div>
+</div>
 
 <div class="banner-home">
 
@@ -60,8 +65,43 @@
 
   <div class="parceiros">
     <div class="container">
-      <h3 class="background"><strong>Parceiros da Indústria</strong></h3>
-      <?php print views_embed_view('fornecedores_associados_home', 'default'); ?>
+      <h3 class="background"><strong>Parceiros</strong></h3>
+      <?php //print views_embed_view('fornecedores_associados_home', 'default'); ?>
+
+      <div class="row">
+
+          <div class="col-sm-1">
+            <a href="/aurora"><img class="img-responsive" src="http://abaas.com.br/sites/default/files/logo%20aurora.png" alt="" height="600" width="600"></a>
+          </div>
+          <div class="col-sm-1">
+            <a href="/colgate"><img class="img-responsive" src="http://abaas.com.br/sites/default/files/colgate.png" alt="" height="260" width="260"></a>
+          </div>
+          <div class="col-sm-1">
+            <a href="/flora"><img class="img-responsive" src="http://abaas.com.br/sites/default/files/flora.png" alt="" height="260" width="260"></a>
+          </div>
+          <div class="col-sm-1">
+            <a href="/heineken"><img class="img-responsive" src="http://abaas.com.br/sites/default/files/logo-heineken_0.png" alt="" height="260" width="260"></a>
+          </div>
+          <div class="col-sm-1">
+              <img class="img-responsive" src="http://abaas.com.br/sites/default/files/johnson.png" alt="" height="600" width="600" />
+            </div>
+          <div class="col-sm-1">
+            <a href="/loreal"><img class="img-responsive" src="http://abaas.com.br/sites/default/files/loreal.png" alt="" height="260" width="260"></a>
+          </div>
+          <div class="col-sm-1">
+            <a href="/marba"><img class="img-responsive" src="http://abaas.com.br/sites/default/files/marba.png" alt="" height="600" width="600"></a>
+          </div>
+          <div class="col-sm-1">
+            <a href="/nestle"><img class="img-responsive" src="http://abaas.com.br/sites/default/files/rodape-nestle1.png" alt="" height="260" width="260"></a>
+          </div>
+          <div class="col-sm-1">
+            <a href="/pg"><img class="img-responsive" src="http://abaas.com.br/sites/default/files/pg.png" alt="" height="600" width="600"></a>
+          </div>
+          <div class="col-sm-1">
+              <a href="/ype"><img class="img-responsive" src="http://abaas.com.br/sites/default/files/logo-ype-vale-mais-cuidar.png" alt="" height="460" width="500"></a>
+          </div>
+      </div>
+
     </div>
   </div>
 

@@ -4,6 +4,7 @@ html, body {
 
 body {
   background: #f2f2f2;
+  font-family: 'Gotham Book', arial, sans-serif;
 }
 
 header {
@@ -35,73 +36,51 @@ a {
 
 /*--- FONTES -------------------------*/
 @font-face {
-  font-family: 'AntennaCond Black';
-  src: url("../fonts/AntennaCond-Black.eot");
-  src: url("../fonts/AntennaCond-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/AntennaCond-Black.woff2") format("woff2"), url("../fonts/AntennaCond-Black.woff") format("woff"), url("../fonts/AntennaCond-Black.svg#AntennaCond-Black") format("svg");
-  font-weight: 900;
+  font-family: 'Gotham Medium';
+  src: url("../fonts/Gotham-Medium.eot");
+  src: url("../fonts/Gotham-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Medium.woff2") format("woff2"), url("../fonts/Gotham-Medium.woff") format("woff"), url("../fonts/Gotham-Medium.ttf") format("truetype"), url("../fonts/Gotham-Medium.svg#Gotham-Medium") format("svg");
+  font-weight: 500;
   font-style: normal;
-  font-stretch: normal;
-  unicode-range: U+0020-FB02;
 }
 
 @font-face {
-  font-family: 'AntennaCond BlackItalic';
-  src: url("../fonts/AntennaCond-BlackItalic.eot");
-  src: url("../fonts/AntennaCond-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/AntennaCond-BlackItalic.woff2") format("woff2"), url("../fonts/AntennaCond-BlackItalic.woff") format("woff"), url("../fonts/AntennaCond-BlackItalic.svg#AntennaCond-BlackItalic") format("svg");
-  font-weight: 900;
-  font-style: italic;
-  font-stretch: normal;
-  unicode-range: U+0020-FB02;
-}
-
-@font-face {
-  font-family: 'AntennaCond Bold';
-  src: url("../fonts/AntennaCond-Bold.eot");
-  src: url("../fonts/AntennaCond-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/AntennaCond-Bold.woff2") format("woff2"), url("../fonts/AntennaCond-Bold.woff") format("woff"), url("../fonts/AntennaCond-Bold.svg#AntennaCond-Bold") format("svg");
-  font-weight: 700;
-  font-style: normal;
-  font-stretch: normal;
-  unicode-range: U+0020-FB02;
-}
-
-@font-face {
-  font-family: 'AntennaCond BoldItalic';
-  src: url("../fonts/AntennaCond-BoldItalic.eot");
-  src: url("../fonts/AntennaCond-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/AntennaCond-BoldItalic.woff2") format("woff2"), url("../fonts/AntennaCond-BoldItalic.woff") format("woff"), url("../fonts/AntennaCond-BoldItalic.svg#AntennaCond-BoldItalic") format("svg");
-  font-weight: 700;
-  font-style: italic;
-  font-stretch: normal;
-  unicode-range: U+0020-FB02;
-}
-
-@font-face {
-  font-family: 'AntennaCond Regular';
-  src: url("../fonts/AntennaCond-Regular.eot");
-  src: url("../fonts/AntennaCond-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/AntennaCond-Regular.woff2") format("woff2"), url("../fonts/AntennaCond-Regular.woff") format("woff"), url("../fonts/AntennaCond-Regular.svg#AntennaCond-Regular") format("svg");
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  unicode-range: U+0020-FB02;
-}
-
-@font-face {
-  font-family: 'AntennaCond RegularItalic';
-  src: url("../fonts/AntennaCond-RegularItalic.eot");
-  src: url("../fonts/AntennaCond-RegularItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/AntennaCond-RegularItalic.woff2") format("woff2"), url("../fonts/AntennaCond-RegularItalic.woff") format("woff"), url("../fonts/AntennaCond-RegularItalic.svg#AntennaCond-RegularItalic") format("svg");
-  font-weight: 400;
-  font-style: italic;
-  font-stretch: normal;
-  unicode-range: U+0020-FB02;
-}
-
-@font-face {
-  font-family: 'AntennaCond Light';
-  src: url("../fonts/AntennaCond-Light.eot");
-  src: url("../fonts/AntennaCond-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/AntennaCond-Light.woff2") format("woff2"), url("../fonts/AntennaCond-Light.woff") format("woff"), url("../fonts/tennaCond-Light.svg#AntennaCond-Light") format("svg");
+  font-family: 'Gotham Light';
+  src: url("../fonts/Gotham-Light.eot");
+  src: url("../fonts/Gotham-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Light.woff2") format("woff2"), url("../fonts/Gotham-Light.woff") format("woff"), url("../fonts/Gotham-Light.ttf") format("truetype"), url("../fonts/Gotham-Light.svg#Gotham-Light") format("svg");
   font-weight: 300;
   font-style: normal;
-  font-stretch: normal;
-  unicode-range: U+0020-FB02;
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url("../fonts/Gotham-Bold.eot");
+  src: url("../fonts/Gotham-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Bold.woff2") format("woff2"), url("../fonts/Gotham-Bold.woff") format("woff"), url("../fonts/Gotham-Bold.ttf") format("truetype"), url("../fonts/Gotham-Bold.svg#Gotham-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Thin';
+  src: url("../fonts/Gotham-Thin.eot");
+  src: url("../fonts/Gotham-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Thin.woff2") format("woff2"), url("../fonts/Gotham-Thin.woff") format("woff"), url("../fonts/Gotham-Thin.ttf") format("truetype"), url("../fonts/Gotham-Thin.svg#Gotham-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Ultra';
+  src: url("../fonts/Gotham-Ultra.eot");
+  src: url("../fonts/Gotham-Ultra.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Ultra.woff2") format("woff2"), url("../fonts/Gotham-Ultra.woff") format("woff"), url("../fonts/Gotham-Ultra.ttf") format("truetype"), url("../fonts/Gotham-Ultra.svg#Gotham-Ultra") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url("../fonts/Gotham-Book.eot");
+  src: url("../fonts/Gotham-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Book.woff2") format("woff2"), url("../fonts/Gotham-Book.woff") format("woff"), url("../fonts/Gotham-Book.ttf") format("truetype"), url("../fonts/Gotham-Book.svg#Gotham-Book") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* FORMULARIOS */
@@ -269,14 +248,14 @@ form input[type="submit"]:hover {
 }
 
 h1 {
-  font-family: 'AntennaCond Bold', arial, sans-serif;
+  font-family: 'Gotham Bold', arial, sans-serif;
   text-transform: uppercase;
   color: #4dc6ef;
   margin-bottom: 20px;
 }
 
 h3 {
-  font-family: 'AntennaCond Bold', arial, sans-serif;
+  font-family: 'Gotham Bold', arial, sans-serif;
   font-size: 24px;
   color: #4dc6ef;
 }
@@ -289,6 +268,8 @@ h3.background {
   text-transform: uppercase;
   margin: 25px 0;
   font-size: 32px;
+  letter-spacing: -1px;
+  font-family: 'Gotham Bold', arial, sans-serif;
 }
 
 h3.background:before {
@@ -309,11 +290,11 @@ h3.background:before {
 h3.background strong {
   /* to hide the lines from behind the text, you have to set the background color the same as the container */
   background: #fff;
-  padding: 0 15px;
+  padding: 0 35px;
 }
 
 h4 {
-  font-family: 'AntennaCond Bold', arial, sans-serif;
+  font-family: 'Gotham Bold', arial, sans-serif;
   font-size: 15px;
   font-weight: bold;
 }
@@ -346,19 +327,104 @@ h4 {
   z-index: 2;
 }
 
+.top-header {
+  float: left;
+  width: 100%;
+  background-color: #0a1723;
+  background: linear-gradient(to right, #0a1723, #1e4869);
+  color: #fff;
+  padding: 5px 0;
+  font-weight: normal;
+}
+
+.top-header .data {
+  float: left;
+  padding: 12px 0;
+  font-family: 'Gotham Thin';
+}
+
+.top-header .data strong {
+  font-family: 'Gotham Bold';
+}
+
+.top-header .region-top-header {
+  float: right;
+  height: 40px;
+  margin-top: 3px;
+}
+
+.top-header .region-top-header .views-exposed-widget {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.top-header .region-top-header .views-exposed-widget input.form-text {
+  border: none !important;
+  background: transparent;
+  font-weight: 300;
+  color: #fff;
+  border-radius: 0;
+  transition: all .2s;
+  width: 150px;
+}
+
+.top-header .region-top-header .views-exposed-widget input.form-text:focus {
+  box-shadow: none;
+}
+
+.top-header .region-top-header .views-exposed-widget ::-webkit-input-placeholder {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.top-header .region-top-header .views-exposed-widget ::-moz-placeholder {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.top-header .region-top-header .views-exposed-widget :-ms-input-placeholder {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.top-header .region-top-header .views-exposed-widget :-moz-placeholder {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.top-header .region-top-header .views-exposed-widget button {
+  width: 50px;
+  height: 40px;
+  margin-top: 0;
+  text-indent: -5000em;
+  padding: 0;
+  background-color: transparent;
+  background-image: url(../img/icon-busca1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: 1s ease-in-out;
+  border: none;
+}
+
+.top-header .region-top-header .views-exposed-widget.active input.form-text {
+  width: 350px;
+  border-bottom: 1px solid #ffa000 !important;
+}
+
+.top-header .region-top-header .views-exposed-widget.active button {
+  background-image: url(../img/icon-busca2.png);
+}
+
 @media (min-width: 768px) {
-  .top-header {
-    float: left;
-    width: 100%;
-    background-color: #0a1723;
-    background: linear-gradient(to right, #0a1723, #1e4869);
-    color: #fff;
-    padding: 20px 0;
-    font-weight: normal;
-  }
   /*--- TOPO --------------------------------------------------------------------------------*/
   header {
-    padding: 40px 0;
+    padding: 0;
+    background: #fff;
+    /*  .menu.nav{
+          padding: 0;
+          margin-top: 0 !important;
+          float: right !important;
+        }*/
     /*@media(min-width:768px){
           .navbar-collapse{
             margin: 10px 0 0 50px !important;
@@ -366,19 +432,35 @@ h4 {
           }
         }*/
   }
-  header a.logo img {
-    max-width: 220px;
-  }
   header .navbar-default {
     background-color: #fff;
     border: none;
+    display: block;
     margin-bottom: 0;
+    padding: 40px 0;
   }
-  header .navbar-default li {
-    margin: 20px 30px 0 0;
+  header a.logo {
+    display: block;
   }
-  header .navbar-default a {
-    font-family: 'AntennaCond Bold', arial, sans-serif;
+  header a.logo img {
+    max-width: 220px;
+  }
+  header .menu.nav {
+    background-color: #fff;
+    border: none;
+    margin-bottom: 0;
+    float: right;
+  }
+  header .menu.nav li {
+    margin-right: 30px;
+    padding-top: 20px;
+    float: left;
+  }
+  header .menu.nav li.active {
+    background: transparent url(../img/icon-active.png) top center no-repeat;
+  }
+  header .menu.nav a {
+    font-family: 'Gotham Medium', arial, sans-serif;
     color: #2f394a !important;
     text-transform: uppercase;
     font-size: 17px;
@@ -386,22 +468,17 @@ h4 {
     padding-right: 0;
     font-weight: normal;
   }
-  header .navbar-default a:hover {
+  header .menu.nav a:hover {
+    background-color: #fff;
     border-bottom: 3px solid #4dc6ef;
   }
-  header .navbar-collapse {
-    padding: 0;
-    margin-top: 0 !important;
-    float: right !important;
-  }
   header .region-topo {
-    display: none;
     float: right;
   }
   header .region-topo #edit-s-wrapper {
     float: right;
     margin-top: 8px;
-    font-family: 'AntennaCond Regular';
+    font-family: 'Gotham Book', sans-serif;
   }
   header .region-topo #edit-s-wrapper #edit-s {
     border: 2px solid #dbdbdb;
@@ -421,6 +498,16 @@ h4 {
   .front .container {
     height: 100%;
     position: relative;
+  }
+  .front .associados {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background: #e3e3e3;
+    border-bottom: 10px solid #ffb300;
+  }
+  .front .associados img.img-responsive {
+    margin: auto;
   }
   .front .banner-home {
     float: left;
@@ -445,12 +532,13 @@ h4 {
   .front .banner-home #banners h3 {
     font-size: 45px;
     color: #fff;
-    font-family: 'AntennaCond BoldItalic';
+    text-transform: uppercase;
+    font-family: 'Gotham Bold';
   }
   .front .banner-home #banners h4 {
-    font-size: 30px;
-    font-family: 'AntennaCond Light', arial, sans-serif;
-    font-style: italic;
+    font-size: 20px;
+    font-family: 'Gotham Light', arial, sans-serif;
+    font-weight: 300;
   }
   .front .banner-home #banners .logos {
     position: absolute;
@@ -466,19 +554,19 @@ h4 {
   .front .noticias-setor .destaque .titulo {
     padding-bottom: 10px;
     border-bottom: 2px solid #dfdfdf;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
   }
   .front .noticias-setor .destaque .titulo a {
     font-size: 21px;
     color: #132e43;
   }
   .front .noticias-setor .destaque .chamada {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: #7c7c7c;
   }
   .front .noticias-setor .destaque .data {
     color: #132e43;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   .front .noticias-setor .destaque .leia a {
     display: inline-block;
@@ -515,6 +603,9 @@ h4 {
   .front .conheca-abaas h3 strong {
     background: #ededed;
   }
+  .front .conheca-abaas h3:before {
+    border-top: 2px solid #ff8600;
+  }
   .front .conheca-abaas ul {
     list-style-type: none;
     margin: 0 0 0 100px;
@@ -523,7 +614,7 @@ h4 {
   .front .conheca-abaas ul li {
     background-position: left center;
     background-repeat: no-repeat;
-    margin: 35px 0;
+    margin: 25px 0;
     padding: 25px 0 25px 105px;
   }
   .front .conheca-abaas ul li:nth-child(1) {
@@ -542,14 +633,44 @@ h4 {
     margin: 12px 0 0 0;
     text-align: center;
   }
+  .front .parceiros h3 {
+    color: #747474;
+  }
   .front .parceiros h5 {
     font-size: 26px;
     margin-bottom: 12px;
-    font-family: 'AntennaCond Bold', arial, sans-serif;
+    font-family: 'Gotham Bold', arial, sans-serif;
     color: #4dc6ef;
   }
   .front .parceiros .col-sm-1 {
     width: 10%;
+  }
+  .front .parceiros #slick-views-fornecedores-associados-home-1 {
+    position: relative;
+    text-align: center;
+  }
+  .front .parceiros #slick-views-fornecedores-associados-home-1 .slick__slider {
+    max-width: 94%;
+    margin: auto;
+  }
+  .front .parceiros #slick-views-fornecedores-associados-home-1 .slick-arrow {
+    display: inline-block;
+    position: absolute;
+    top: 24px;
+    text-indent: -5000em;
+    width: 25px;
+    height: 40px;
+    border-radius: 0;
+    padding: 0;
+    background: transparent;
+  }
+  .front .parceiros #slick-views-fornecedores-associados-home-1 .slick-arrow.slick-prev {
+    left: 0;
+    background: transparent url(../img/arrow-left.png) center center no-repeat;
+  }
+  .front .parceiros #slick-views-fornecedores-associados-home-1 .slick-arrow.slick-next {
+    right: 0;
+    background: transparent url(../img/arrow-right.png) center center no-repeat;
   }
   .front #comunicado .modal-lg {
     width: 800px;
@@ -573,7 +694,7 @@ h4 {
     width: 100%;
   }
   .page-node-171 .conteudo .chamada {
-    font-family: 'AntennaCond Light', arial, sans-serif;
+    font-family: 'Gotham Light', arial, sans-serif;
     color: #4D555B;
     font-size: 19px;
   }
@@ -596,7 +717,7 @@ h4 {
     border: 4px solid #4dc6ef;
   }
   .page-node-171 .conteudo .diretoria .col-sm-4 {
-    min-height: 115px;
+    min-height: 120px;
   }
   .page-node-171 .conteudo .diretoria .diretor {
     margin-bottom: 50px;
@@ -619,12 +740,12 @@ h4 {
     width: 85%;
   }
   .page-node-171 .conteudo .newsletter h5 {
-    font-family: 'AntennaCond Bold', arial, sans-serif;
+    font-family: 'Gotham Bold', arial, sans-serif;
   }
   .page-node-171 .conteudo .newsletter p {
     font-size: 18px;
     color: #808080;
-    font-family: 'AntennaCond Regular';
+    font-family: 'Gotham Book', sans-serif;
   }
   /*-- ASSOCIADOS / FORNECEDORES /  ---------------------------------------------------------------------*/
   .page-associados .principal,
@@ -654,7 +775,7 @@ h4 {
   }
   .page-associados .conteudo .chamada,
   .page-fornecedores .conteudo .chamada {
-    font-family: 'AntennaCond Light', arial, sans-serif;
+    font-family: 'Gotham Light', arial, sans-serif;
     color: #4D555B;
     font-size: 19px;
   }
@@ -795,7 +916,7 @@ h4 {
     text-transform: uppercase;
     margin: 0 15px 0 0;
     letter-spacing: 1px;
-    font-family: 'AntennaCond', Arial, sans-serif;
+    font-family: 'Gotham Book', Arial, sans-serif;
   }
   .page-revista .edicao-data span {
     display: inline-block;
@@ -803,7 +924,7 @@ h4 {
     color: #ccc;
     font-size: 16px;
     line-height: 55px;
-    font-family: 'AntennaCond RegularItalic';
+    font-family: 'Gotham Book', Arial, sans-serif;
   }
   .page-revista .chamada {
     width: 100%;
@@ -811,7 +932,7 @@ h4 {
     border-bottom: 1px solid #ccc;
     padding-bottom: 25px;
     margin-bottom: 25px;
-    font-family: 'AntennaCond Light', arial, sans-serif;
+    font-family: 'Gotham Light', arial, sans-serif;
     color: #4D555B;
     font-size: 17px;
   }
@@ -839,7 +960,7 @@ h4 {
     margin: 0 0 40px 0;
     letter-spacing: 1px;
     width: 100%;
-    font-family: 'AntennaCond', Arial, sans-serif;
+    font-family: 'Gotham Book', Arial, sans-serif;
   }
   .page-revista .edicoes-anteriores .view-revista-todas {
     width: 100%;
@@ -869,7 +990,7 @@ h4 {
   }
   .page-contato .principal h5,
   .page-contato .principal p {
-    font-family: 'AntennaCond Light', arial, sans-serif;
+    font-family: 'Gotham Light', arial, sans-serif;
     font-size: 17px;
   }
   .page-contato .banner {
@@ -894,14 +1015,14 @@ h4 {
     background: #f5f5f5;
     margin-top: 75px;
     text-align: center;
-    font-family: 'AntennaCond Light', arial, sans-serif;
+    font-family: 'Gotham Light', arial, sans-serif;
   }
   .page-contato .mais img {
     margin: -60px 0 15px 0;
   }
   .page-contato .mais h2 {
     font-size: 25px;
-    font-family: 'AntennaCond Bold';
+    font-family: 'Gotham Bold';
   }
   .page-contato .mais h4 {
     margin-top: 20px;
@@ -935,7 +1056,7 @@ h4 {
     margin-top: -410px;
   }
   .page-midia .chamada {
-    font-family: 'AntennaCond Light', arial, sans-serif;
+    font-family: 'Gotham Light', arial, sans-serif;
     color: #4D555B;
     font-size: 19px;
     margin-bottom: 80px;
@@ -948,7 +1069,7 @@ h4 {
     margin: 10px 0;
   }
   .page-midia .views-row .views-field-title a {
-    font-family: 'AntennaCond Bold', arial, sans-serif;
+    font-family: 'Gotham Bold', arial, sans-serif;
   }
   .page-midia .views-row .views-field-body {
     color: #4D555B;
@@ -990,7 +1111,7 @@ h4 {
     margin: 15px 0;
   }
   .page-news .conteudo .chamada {
-    font-family: 'AntennaCond Light', arial, sans-serif;
+    font-family: 'Gotham Light', arial, sans-serif;
     color: #4D555B;
     font-size: 19px;
     margin-bottom: 80px;
@@ -1004,7 +1125,7 @@ h4 {
     min-height: 55px;
   }
   .page-news .conteudo .views-row .views-field-title a {
-    font-family: 'AntennaCond Bold', arial, sans-serif;
+    font-family: 'Gotham Bold', arial, sans-serif;
   }
   .page-news .conteudo .views-row .views-field-body {
     color: #4D555B;
@@ -1081,7 +1202,7 @@ h4 {
     font-size: 50px;
     margin-top: 160px;
     letter-spacing: 1px;
-    font-family: 'AntennaCond Black';
+    font-family: 'Gotham Bold', Arial, sans-serif;
   }
   .node-type-perfil .view-perfil-conteudo .views-field-body {
     float: left;
@@ -1089,7 +1210,7 @@ h4 {
     margin: 30px 0 50px 0;
     color: #666;
     font-size: 17px;
-    font-family: 'AntennaCond Light', arial, sans-serif;
+    font-family: 'Gotham Light', arial, sans-serif;
   }
   .node-type-perfil .view-perfil-conteudo .item {
     float: left;
@@ -1154,7 +1275,7 @@ h4 {
   .page-busca .principal h1 {
     margin: 50px 0;
     text-align: center;
-    font-family: 'AntennaCond Bold', arial, sans-serif;
+    font-family: 'Gotham Bold', arial, sans-serif;
     text-transform: uppercase;
     color: #4dc6ef;
   }
@@ -1163,7 +1284,7 @@ h4 {
   }
   .page-busca .principal .view-busca-conteudo .views-row .views-field-title {
     font-size: 21px;
-    font-family: 'AntennaCond Regular', arial;
+    font-family: 'Gotham Book', arial;
   }
   .page-busca .principal .view-busca-conteudo .views-row span {
     display: inline;
@@ -1209,27 +1330,28 @@ h4 {
     width: 100%;
     padding: 60px 0;
     color: #71828F;
-    font-family: 'AntennaCond Regular';
-  }
-  footer .container {
-    max-width: 1015px;
+    font-family: 'Gotham Book', sans-serif;
   }
   footer img.logo-abaas {
     max-width: 230px;
     margin-bottom: 20px;
   }
   footer h5 {
-    font-size: 13px;
+    font-size: 21px;
+    font-family: 'Gotham Bold', arial, sans-serif;
+    color: #ffae00;
     text-transform: uppercase;
-    color: #fff;
-    margin: 0 0 20px 0;
   }
   footer .sobre {
+    width: 30%;
     font-size: 11px;
     font-weight: lighter;
     float: left;
     letter-spacing: 1px;
-    max-width: 360px;
+    color: #fff;
+  }
+  footer .sobre p {
+    line-height: 17px;
   }
   footer a {
     color: #CFE5FF;
@@ -1240,21 +1362,27 @@ h4 {
   }
   footer .mapa {
     float: left;
-    padding: 0 60px;
-    margin: 0 60px;
-    border-left: 1px solid #231F20;
-    border-right: 1px solid #231F20;
+    width: 30%;
+    padding: 0 3%;
+    margin: 0 6%;
   }
   footer .mapa ul {
+    width: 50%;
     list-style-type: none;
     padding: 0;
-    margin: 0 30px 0 0;
+    margin: 0;
     float: left;
   }
   footer .mapa ul li {
     margin-bottom: 7px;
     padding-bottom: 7px;
-    border-bottom: 1px solid #231F20;
+  }
+  footer .mapa ul li a {
+    color: #fff;
+  }
+  footer .mapa ul li a:hover {
+    color: #43b647;
+    text-decoration: none;
   }
   footer .mapa ul li:last-child {
     margin-bottom: 0;
@@ -1263,19 +1391,21 @@ h4 {
     margin: 0;
   }
   footer .endereco {
-    float: left;
+    width: 20%;
+    float: right;
+    color: #fff;
   }
   footer .endereco p {
     margin-bottom: 7px;
   }
   footer .endereco a.email {
     display: inline-block;
-    padding: 5px 15px;
-    border: 1px solid #fff;
-    border-radius: 3px;
-    color: #fff;
-    font-size: 12px;
+    padding: 9px 25px;
+    color: #142F45;
     letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: linear-gradient(to right, #ff8300, #ffb900);
   }
   .powered {
     text-align: center;
@@ -1397,12 +1527,12 @@ h4 {
     text-align: center;
   }
   .front .newsletter h5 {
-    font-family: 'AntennaCond Bold', arial, sans-serif;
+    font-family: 'Gotham Bold', arial, sans-serif;
   }
   .front .newsletter p {
     font-size: 21px;
     color: #808080;
-    font-family: 'AntennaCond Regular';
+    font-family: 'Gotham Book', sans-serif;
   }
   .front .parceiros {
     display: none;
@@ -1421,18 +1551,18 @@ h4 {
     width: 100%;
   }
   .quem-somos .conteudo h1 {
-    font-family: 'AntennaCond Bold', arial, sans-serif;
+    font-family: 'Gotham Bold', arial, sans-serif;
     text-transform: uppercase;
     color: #4dc6ef;
     margin-bottom: 20px;
   }
   .quem-somos .conteudo h3 {
-    font-family: 'AntennaCond Bold', arial, sans-serif;
+    font-family: 'Gotham Bold', arial, sans-serif;
     font-size: 24px;
     color: #4dc6ef;
   }
   .quem-somos .conteudo h4 {
-    font-family: 'AntennaCond Bold', arial, sans-serif;
+    font-family: 'Gotham Bold', arial, sans-serif;
     font-size: 15px;
     font-weight: bold;
   }
@@ -1440,7 +1570,7 @@ h4 {
     margin-bottom: 40px;
   }
   .quem-somos .conteudo .chamada {
-    font-family: 'AntennaCond Light', arial, sans-serif;
+    font-family: 'Gotham Light', arial, sans-serif;
     color: #4D555B;
     font-size: 16px;
   }
@@ -1468,12 +1598,12 @@ h4 {
     margin-top: 40px;
   }
   .quem-somos .conteudo .newsletter h5 {
-    font-family: 'AntennaCond Bold', arial, sans-serif;
+    font-family: 'Gotham Bold', arial, sans-serif;
   }
   .quem-somos .conteudo .newsletter p {
     font-size: 21px;
     color: #808080;
-    font-family: 'AntennaCond Regular';
+    font-family: 'Gotham Book', sans-serif;
   }
   /*-- ASSOCIADOS / FORNECEDORES / REVISTA ---------------------------------------------------------------------*/
   .page-associados .principal,
@@ -1502,7 +1632,7 @@ h4 {
   }
   .page-associados .conteudo .chamada,
   .page-fornecedores .conteudo .chamada {
-    font-family: 'AntennaCond Light', arial, sans-serif;
+    font-family: 'Gotham Light', arial, sans-serif;
     color: #4D555B;
     font-size: 19px;
   }
@@ -1622,7 +1752,7 @@ h4 {
     letter-spacing: 1px;
     margin-top: 15px;
     width: 100%;
-    font-family: 'AntennaCond Black';
+    font-family: 'Gotham Bold', Arial, sans-serif;
   }
   .node-type-perfil .view-perfil-conteudo .views-field-body {
     float: left;
@@ -1630,7 +1760,7 @@ h4 {
     margin: 10px 0 50px 0;
     color: #666;
     font-size: 17px;
-    font-family: 'AntennaCond Light', arial, sans-serif;
+    font-family: 'Gotham Light', arial, sans-serif;
   }
   .node-type-perfil .view-perfil-conteudo .item {
     float: left;
@@ -1711,7 +1841,7 @@ h4 {
     text-transform: uppercase;
     margin: 0 15px 0 0;
     letter-spacing: 1px;
-    font-family: 'AntennaCond';
+    font-family: 'Gotham Book';
   }
   .page-revista .edicao-data span {
     display: inline-block;
@@ -1719,7 +1849,7 @@ h4 {
     color: #ccc;
     font-size: 16px;
     line-height: 55px;
-    font-family: 'AntennaCond RegularItalic';
+    font-family: 'Gotham Book';
   }
   .page-revista .chamada {
     width: 100%;
@@ -2163,7 +2293,7 @@ h4 {
 .page-workshop h2 {
   text-align: center;
   font-size: 42px;
-  font-family: 'AntennaCond Light', arial, sans-serif;
+  font-family: 'Gotham Light', arial, sans-serif;
 }
 
 .page-workshop h2::after {
@@ -2179,7 +2309,7 @@ h4 {
 .page-workshop h3 {
   color: #4d555a;
   font-size: 32px;
-  font-family: 'AntennaCond Light', arial, sans-serif;
+  font-family: 'Gotham Light', arial, sans-serif;
 }
 
 .page-workshop h3::after {
@@ -2441,7 +2571,7 @@ h4 {
 }
 
 .page-workshop-inscricoes .conteudo .chamada {
-  font-family: 'AntennaCond Light', arial, sans-serif;
+  font-family: 'Gotham Light', arial, sans-serif;
   color: #4D555B;
   font-size: 19px;
 }

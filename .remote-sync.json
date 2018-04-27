@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "52.22.248.39",
+  "port": "21",
+  "target": "/abaas/www.abaas.com.br/sites/all/themes/abaas2",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "acesso",
+  "password": "m3d14w3b",
+  "watch": [],
+  "transport": "ftp"
+}
