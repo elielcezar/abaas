@@ -44,7 +44,10 @@
       <div class="row">
         <div class="col-sm-6">
           <div class="player">
-              <iframe class="" id="vimeo-241578132" width="100%" height="380" src="//player.vimeo.com/video/241578132?width=640&amp;height=360&amp;color=00adef&amp;portrait=1&amp;title=1&amp;byline=1&amp;autoplay=0&amp;loop=0&amp;player_id=vimeo-241578132" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>  </div>
+              <iframe class="" id="vimeo-268653183" width="100%" height="380" src="//player.vimeo.com/video/268653183?width=640&amp;height=360&amp;color=00adef&amp;portrait=1&amp;title=1&amp;byline=1&amp;autoplay=0&amp;loop=0&amp;player_id=vimeo-241578132" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+            
+          </div>
+
           </div>
           <div class="col-sm-6">
               <ul>
@@ -118,8 +121,7 @@
     <div class="modal-content">
       <div class="modal-body">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-        <!--iframe src="https://player.vimeo.com/video/257506633?title=0&byline=0&portrait=0" width="100%" height="510" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe-->
-        <iframe src="https://player.vimeo.com/video/262273146?title=0&byline=0&portrait=0" width="100%" height="510" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/268653183?title=0&byline=0&portrait=0" width="100%" height="510" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
     </div>
   </div>
