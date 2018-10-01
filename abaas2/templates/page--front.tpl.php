@@ -4,7 +4,7 @@
 
 <div class="associados">
   <div class="container">
-    <a href="<?php print base_path() ?>/associados"><img src="<?php print base_path() ?>sites/all/themes/abaas2/img/associados.jpg" class="img-responsive" /></a>
+    <a href="<?php print base_path(); ?>associados"><img src="<?php print base_path() ?>sites/all/themes/abaas2/img/associados.jpg" class="img-responsive" /></a>
   </div>
 </div>
 
@@ -44,8 +44,8 @@
       <div class="row">
         <div class="col-sm-6">
           <div class="player">
-              <iframe class="" id="vimeo-268653183" width="100%" height="380" src="//player.vimeo.com/video/268653183?width=640&amp;height=360&amp;color=00adef&amp;portrait=1&amp;title=1&amp;byline=1&amp;autoplay=0&amp;loop=0&amp;player_id=vimeo-241578132" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
-            
+              <iframe src="https://player.vimeo.com/video/280993780" width="100%" height="380" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <!--iframe src="https://player.vimeo.com/video/280989516" width="100%" height="380" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe-->
           </div>
 
           </div>
